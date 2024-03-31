@@ -1,0 +1,79 @@
+.RecommendedSecotion-container {
+  margin-top: -70px;
+  color: #fff;
+  padding: 0 80px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+.recommend-heading {
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+}
+
+.ul-container {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+}
+
+.li-container {
+  display: flex;
+  position: relative;
+}
+
+.thm-img {
+  width: 250px;
+  height: 400px;
+  background-color: transparent;
+  margin: 40px 0 0 10px;
+  /* margin-top: 10px; */
+  object-fit: cover;
+  background-size: contain;
+  border: none;
+}
+
+.cityName-eventdata {
+  color: #fff;
+
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  position: absolute;
+  z-index: 30;
+  bottom: 30px;
+  left: 20px;
+}
+
+.event-name-container {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  font-weight: 600;
+  /* font-size: 12px; */
+}
+
+.even-name {
+  font-size: 12px;
+  width: 120px;
+}
+
+.location-dis-container {
+  display: flex;
+  gap: 2px;
+}
+
+.loaction-container {
+  display: flex;
+  gap: 5px;
+  width: 120px;
+  font-size: 12px;
+}
+
+.dis-container {
+  display: flex;
+  font-size: 12px;
+  /* gap: 5px; */
+}

@@ -3,6 +3,7 @@ import Navbar from "./Navbar";
 import Header from "./Header";
 import banner from "../assets/Banner.svg";
 import "../styles/Home.css";
+import RecommendedSecotion from "./RecommendedSecotion";
 
 const Home = () => {
   return (
@@ -28,6 +29,7 @@ const Home = () => {
           aptent taciti sociosqu ad litora torquent per conubia nostra, per
         </p>
       </div>
+      <RecommendedSecotion />
     </div>
   );
 };
