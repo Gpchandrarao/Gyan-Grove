@@ -37,7 +37,6 @@
 
 .cityName-eventdata {
   color: #fff;
-
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -76,4 +75,37 @@
   display: flex;
   font-size: 12px;
   /* gap: 5px; */
+}
+
+@media screen and (max-width: 768px) {
+  .thm-img {
+    width: 250px;
+    height: 250px;
+    padding-left: 30px;
+    margin-top: 50px;
+  }
+  .cityName-eventdata {
+    font-size: 8px;
+    gap: 0;
+  }
+  .event-name-container {
+    gap: 0;
+    font-size: 8px;
+  }
+  .location-dis-container {
+    gap: 0;
+    font-size: 8px;
+  }
+  .loaction-container {
+    font-size: 8px;
+    gap: 0;
+    width: 40px;
+  }
+  .city-name {
+    font-size: 8px;
+    width: 40px;
+  }
+  .dis-container {
+    font-size: 8px;
+  }
 }

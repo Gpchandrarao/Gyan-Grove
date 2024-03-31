@@ -6,7 +6,7 @@ Stroke/border color - #B0BABF
  */
 .header-container {
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   align-items: center;
   padding: 20px 30px;
   color: #989090;
@@ -93,4 +93,27 @@ Stroke/border color - #B0BABF
 
 .sign-btn:hover {
   opacity: 0.5;
+}
+@media screen and (min-width: 765px) {
+  .header-container {
+    justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: 765px) {
+  .header-container {
+    justify-content: space-between;
+  }
+  .medile {
+    display: none;
+  }
+  .favorites {
+    display: none;
+  }
+  .rigth {
+    font-size: 15px;
+  }
+  .sign-btn {
+    display: none;
+  }
 }

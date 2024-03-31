@@ -57,16 +57,19 @@ const Upcomming = () => {
                 src={`https://drive.google.com/thumbnail?id=${upcommingImgs[index]}&sz=w1000}alt=`}
                 className="img-up"
               />
-              <div>
+              <div className="data-container">
                 <p>{formaateDate(eachUp.date)}</p>
               </div>
-              <div>
-                <FaLocationDot />
-                <p>{eachUp.eventName}</p>
-              </div>
-              <div>
-                <p>{eachUp.weather}|</p>
-                <p>{disConvert(eachUp.distanceKm)}KM</p>
+              <p className="event-name">{eachUp.eventName}</p>
+              <div className="date-location-up-container">
+                <div className="loction-up-containe">
+                  <FaLocationDot />
+                  <p>West Douglas</p>
+                </div>
+                <div className="loction-up-containe">
+                  <p>{eachUp.weather}|</p>
+                  <p>{disConvert(eachUp.distanceKm)}KM</p>
+                </div>
               </div>
             </li>
           ))}

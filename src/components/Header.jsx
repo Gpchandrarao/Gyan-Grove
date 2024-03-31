@@ -2,6 +2,9 @@ import React, { useState } from "react";
 import { IoMdMenu } from "react-icons/io";
 import { CiSearch } from "react-icons/ci";
 import { FaHeart } from "react-icons/fa";
+
+import { IoPerson } from "react-icons/io5";
+
 import "../styles/Header.css";
 
 const Header = () => {
@@ -12,6 +15,7 @@ const Header = () => {
   return (
     <header className="header-container">
       <div className="rigth">BookUsNow</div>
+
       {/* mediel */}
       <div className="medile">
         <div className="categorie-container">
@@ -30,7 +34,10 @@ const Header = () => {
       </div>
       {/* left */}
       <div className="left">
+        <CiSearch className="search-icon-mb" />
+
         <FaHeart />
+        <IoPerson className="person-bg" />
         <p className="favorites">Favorites</p>
         <button className="sign-btn" type="button">
           Sign In
