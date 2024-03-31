@@ -4,6 +4,7 @@ import Header from "./Header";
 import banner from "../assets/Banner.svg";
 import "../styles/Home.css";
 import RecommendedSecotion from "./RecommendedSecotion";
+import Upcomming from "./Upcomming";
 
 const Home = () => {
   return (
@@ -30,6 +31,7 @@ const Home = () => {
         </p>
       </div>
       <RecommendedSecotion />
+      <Upcomming />
     </div>
   );
 };

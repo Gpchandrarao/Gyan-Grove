@@ -57,8 +57,6 @@ const RecommendedSecotion = () => {
     }
   };
 
-  console.log(recommendData);
-
   const disConvert = (dis) => {
     return (dis / 1000).toFixed(2);
   };
