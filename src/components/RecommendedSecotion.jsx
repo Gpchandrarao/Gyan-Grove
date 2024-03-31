@@ -38,8 +38,7 @@ const RecommendedSecotion = () => {
   }, []);
 
   const fetchingData = async () => {
-    const recommendApi =
-      "https://gg-backend-assignment.azurewebsites.net/api/Events?code=FOX643kbHEAkyPbdd8nwNLkekHcL4z0hzWBGCd64Ur7mAzFuRCHeyQ==&type=reco";
+    const recommendApi = "";
     const res = await fetch(recommendApi);
     if (res.ok === true) {
       const data = await res.json();
